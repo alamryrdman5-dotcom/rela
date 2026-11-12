@@ -1,0 +1,26 @@
+{
+  "name": "retail-pos-system",
+  "version": "1.0.0",
+  "description": "نظام إدارة المحلات التجارية ونقاط البيع السريعة",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "keywords": [
+    "pos",
+    "retail",
+    "saas",
+    "inventory",
+    "accounting"
+  ],
+  "author": "Antigravity",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "uuid": "^11.0.3"
+  }
+}
